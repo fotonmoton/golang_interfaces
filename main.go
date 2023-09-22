@@ -2,14 +2,15 @@ package main
 
 import (
 	"errors"
-	"interfaces/cache"
-	cruelerror "interfaces/cruelError"
-	"interfaces/decorator"
-	racegame "interfaces/raceGame"
-	"interfaces/sound"
 	"log"
 	"os"
 	"strings"
+
+	"github.com/fotonmoton/golang_interfaces/cache"
+	cruelerror "github.com/fotonmoton/golang_interfaces/cruelError"
+	"github.com/fotonmoton/golang_interfaces/decorator"
+	racegame "github.com/fotonmoton/golang_interfaces/raceGame"
+	"github.com/fotonmoton/golang_interfaces/sound"
 )
 
 /*
